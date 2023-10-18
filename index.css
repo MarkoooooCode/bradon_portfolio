@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar .logo {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.navbar a img{
+    height: 100%;
+    width: 150px;
+    margin: auto 5rem;
+}
+
+.navbar ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 5rem;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+.navbar li a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.home {
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.container-home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left-side {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contained {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-side .inspired-con {
+    margin: 0 auto;
+    height: 70%;
+    width: 90%;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.left-side .inspired-con .message {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.message h1 {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 50px;
+    color: red;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.message h2 {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.aspire {
+    text-align: center;
+    color: gray;
+    font-weight: 100;
+}
+
+.aspire h1{
+    font-size: 25px;
+}
+
+.home .right-side {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img {
+    margin: auto;
+    width: 80%;
+}
+
+.breakfast-home {
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.breakfast-home .back-div {
+    padding: 20px 50px;
+    border-left: 15px solid blue;
+}
+
+.breakfast-home .back-div h1 {
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.breakfast-home .bfast-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.breakfast-home .bfast-container .left-side {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.breakfast-home .bfast-container .left-side .mess {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.breakfast-home .bfast-container .left-side .mess .fa {
+    text-align: left;
+}
+
+.breakfast-home .bfast-container .left-side h2 {
+    color: red;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.breakfast-home .bfast-container .left-side p {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.breakfast-home .bfast-container .right-side {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.breakfast-home .bfast-container .right-side .mess {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.breakfast-home .bfast-container .right-side .mess .fa {
+    text-align: left;
+}
+
+.breakfast-home .bfast-container .right-side h2 {
+    color: red;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.breakfast-home .bfast-container .right-side p {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.breakfast-home .back-div-red {
+    padding: 20px 50px;
+    border-left: 15px solid red;
+}
+
+.breakfast-home .back-div-red h1 {
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.summary {
+    margin: 0 auto;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-content {
+    background-color: rgb(242, 242, 242);
+    padding: 50px;
+}
+
+.summary-content p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.page3container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.p3title {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    border-right: 3px solid black;
+    flex-direction: column;
+}
+
+.p3title h1 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.p3-right-side {
+    width: 60%;
+    display: flex;
+}
+
+.p3-right-side ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+}
+
+.p3-right-side ul li {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.page3container h1 {
+    color: red;
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+}
+
+.breakfast-home-digi {
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.breakfast-home-digi .back-div {
+    padding: 20px 50px;
+    border-left: 15px solid orange;
+}
+
+.breakfast-home-digi .back-div h1 {
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.breakfast-home-digi .bfast-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.breakfast-home-digi .bfast-container .left-side {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.breakfast-home-digi .bfast-container .left-side p {
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.breakfast-home-digi .bfast-container .right-side {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.breakfast-home-digi .bfast-container .right-side img {
+    width: 120%;
+    height: 120%;
+    margin: auto;
+}
+
+.breakfast-home-digi .bfast-container-findings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.breakfast-home-digi .bfast-container .left-side img {
+    width: 120%;
+    height: 120%;
+    margin: auto;
+}
+
+.mess-mockups img {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+.left-side-findings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side-findings img{
+    width: 75%;
+    height: 100%;
+}
+
+.summary-content-connect {
+    background-color: rgb(242, 242, 242);
+    padding: 100px;
+}
+
+.summary-content-connect p {
+    font-size: 30px;
+    text-align: center;
+}
