@@ -8,6 +8,11 @@
 }
 
 
+element.style {
+    left: 15px;
+}
+
+
 /* Base styles for navbar */
 
 .navbar {
