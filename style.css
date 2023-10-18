@@ -8,11 +8,6 @@
 }
 
 
-element.style {
-    left: 15px;
-}
-
-
 /* Base styles for navbar */
 
 .navbar {
@@ -238,6 +233,9 @@ element.style {
         transition: 0.5s ease-in-out;
         padding: 0;
     }
+    element.style {
+    left: 15px;
+}
     .navbar-list li a {
         color: white;
     }
