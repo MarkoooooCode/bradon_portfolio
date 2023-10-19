@@ -59,7 +59,7 @@ body {
 }
 
 .home {
-  height: 100vh;
+  height: 90vh;
   min-width: 100vw;
 }
 
@@ -146,30 +146,30 @@ body {
 }
 
 .breakfast-home {
-  min-height: 100vh;
+  min-height: 90vh;
   margin: auto;
   display: flex;
-  gap: 50px;
   flex-direction: column;
   justify-content: center;
 }
 
 .breakfast-home .back-div {
   padding: 20px 50px;
-  border-left: 15px solid blue;
+  border-left: 15px solid red;
 }
 
 .breakfast-home .back-div h1 {
   text-decoration: none;
   color: red;
-  font-size: 50px;
-  font-weight: 100;
+  font-size: 35px;
+  font-weight: 90;  
 }
 
 .breakfast-home .bfast-container {
   height: 100%;
   width: 100%;
   display: flex;
+  padding-top: 2rem;
 }
 
 .bfast-container1{
@@ -198,21 +198,22 @@ body {
 }
 
 .left-side1 .mess{
+  padding-top: 2rem;
   padding-left: 2rem;
-  margin-left: 50px;
   padding-bottom: 2rem;
 }
 .left-side1 .mess h2{
-  display: block;
-  font-size: xx-large;
+  display: block;  
+  color: red;
+  font-size: 25px;
+  font-weight: 150;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: bold;
 }
-.left-side1 .mess p{
-  font-size: 30px;
+.left-side1 .mess p{  
+  font-size: 20px;
 }
 .breakfast-home .bfast-container .left-side {
   display: flex;
@@ -239,13 +240,14 @@ body {
 }
 
 .breakfast-home .bfast-container .left-side h2 {
-  color: red;
-  font-size: xx-large;
+  color: red;    
+  font-size: 25px;
+  font-weight: 150;
   margin-left: 50px;
 }
 
 .breakfast-home .bfast-container .left-side p {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 50px;
 }
 
@@ -269,12 +271,13 @@ body {
 
 .breakfast-home .bfast-container .right-side h2 {
   color: red;
-  font-size: xx-large;
+  font-size: 30px;
+  font-weight: 200;
   margin-left: 50px;
 }
 
 .breakfast-home .bfast-container .right-side p {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 50px;
 }
 
@@ -283,11 +286,11 @@ body {
   border-left: 15px solid red;
 }
 
-.breakfast-home .back-div-red h1 {
+.breakfast-home .back-div-red h1 {  
   text-decoration: none;
   color: red;
-  font-size: 50px;
-  font-weight: 100;
+  font-size: 35px;
+  font-weight: 90;
 }
 
 .summary {
@@ -306,7 +309,7 @@ body {
 }
 
 .summary-content p {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -352,8 +355,9 @@ body {
   color: red;
   font-family: sans-serif;
   margin: auto;
-  text-align: center;
-  font-size: 70px;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 150;
 }
 
 .breakfast-home-digi {
@@ -373,7 +377,7 @@ body {
 .breakfast-home-digi .back-div h1 {
   text-decoration: none;
   color: red;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 100;
 }
 
