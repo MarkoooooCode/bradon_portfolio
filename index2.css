@@ -173,7 +173,6 @@ body {
 }
 
 .bfast-container1{
-  min-height: 100vh;
   height: 100%;
   width: 100%;
   display: flex;
@@ -199,7 +198,7 @@ body {
 
 .left-side1 .mess{
   padding-top: 2rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
   padding-bottom: 2rem;
 }
 .left-side1 .mess h2{
@@ -214,6 +213,7 @@ body {
 }
 .left-side1 .mess p{  
   font-size: 20px;
+  padding-top: 1rem;
 }
 .breakfast-home .bfast-container .left-side {
   display: flex;
@@ -244,11 +244,12 @@ body {
   font-size: 25px;
   font-weight: 150;
   margin-left: 50px;
+  padding-left: 2rem;
 }
 
 .breakfast-home .bfast-container .left-side p {
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 2rem;
 }
 
 .breakfast-home .bfast-container .right-side {
@@ -274,11 +275,13 @@ body {
   font-size: 30px;
   font-weight: 200;
   margin-left: 50px;
+  padding-left: 2rem;
 }
 
 .breakfast-home .bfast-container .right-side p {
   font-size: 20px;
   margin-left: 50px;
+  padding-left: 2rem;
 }
 
 .breakfast-home .back-div-red {
@@ -395,7 +398,7 @@ body {
 }
 
 .breakfast-home-digi .bfast-container .left-side p {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 70px;
 }
 
