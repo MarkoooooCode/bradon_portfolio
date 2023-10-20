@@ -153,15 +153,17 @@ p{
   height: 100%;
 }
 .img-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid */
-  grid-gap: 10px; /* Add some spacing between images */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .img-grid img {
-  width: 80%;
-  height: auto;
+  width: 35%;
+  height: 40%;
   padding: .5rem;
+  margin: auto;
+  border: 1px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .center-content1{
@@ -181,6 +183,5 @@ p{
 .content-text3{
   width: 50%;
   padding: 2rem;
-  text-align: top;
   color: #5a5a5a;
 }
