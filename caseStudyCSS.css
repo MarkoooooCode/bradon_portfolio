@@ -101,6 +101,7 @@ p{
 .center-content p{
   font-size: 20px;
   padding-left: 0;
+  color: rgb(109, 109, 109);
 }
 
 .container .back-div{
@@ -133,6 +134,7 @@ p{
   padding: 1rem;
   vertical-align: top;
   gap: .5rem;
+  color: rgb(109, 109, 109);
 }
 
 .content-image{
@@ -180,4 +182,5 @@ p{
   width: 50%;
   padding: 2rem;
   text-align: top;
+  color: #5a5a5a;
 }
