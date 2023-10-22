@@ -41,6 +41,11 @@ p{
   padding-bottom: 5rem;
 }
 
+.container img{
+  align-items: center;
+  padding-left: 5rem;
+}
+
 .container-title{
   padding: 20px 50px;
   border-left: 15px solid red;
@@ -239,6 +244,16 @@ p{
 
 .big-content{
   width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-img{
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .three-column-centered{
