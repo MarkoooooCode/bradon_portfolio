@@ -43,6 +43,24 @@ p{
   padding-bottom: 5rem;
 }
 
+.title1{
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+  font-weight: 150;
+  padding-right: 2rem;
+  text-align: left;
+}
+
+.new-img{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 50%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
 .container img{
   align-items: center;
 }
