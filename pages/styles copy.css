@@ -365,7 +365,7 @@ p{
 }
 
 .home {
-  height: 100vh;
+  height: 140vh;
   min-width: 100vw;
 }
 
@@ -446,14 +446,19 @@ p{
 }
 
 .home .right-side img{
-  width: 400px;
-  height: 800px;
-  transform: rotate(320deg); 
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-side img {
-  margin: auto;
-  width: 70%;
+  z-index: -1;
+  margin-left: 15rem;
+  width: 700px;
+  height: 1700px;
   border: 1px solid gray;
+  transform: rotate(320deg); 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
