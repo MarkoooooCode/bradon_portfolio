@@ -455,5 +455,6 @@ p{
   margin: auto;
   width: 70%;
   border: 1px solid gray;
+  transform: rotate(320deg); 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
