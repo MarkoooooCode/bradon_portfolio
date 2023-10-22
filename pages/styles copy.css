@@ -18,7 +18,7 @@ body {
 }
 
 h2{
-  color: blue;
+  color: #508494;
   font-size: 25px;
   font-weight: 150;
   padding-bottom: .5rem;
@@ -45,7 +45,7 @@ p{
 
 .title1{
   text-decoration: none;
-  color: blue;
+  color: #508494;
   font-size: 40px;
   font-weight: 150;
   padding-right: 2rem;
@@ -67,12 +67,12 @@ p{
 
 .container-title{
   padding: 20px 50px;
-  border-left: 15px solid blue;
+  border-left: 15px solid #508494;
 }
 
 .container-title h1{
   text-decoration: none;
-  color: blue;
+  color: #508494;
   font-size: 35px;
   font-weight: 90;
 }
@@ -99,7 +99,7 @@ p{
 }
 
 .content h2{
-  color: blue;
+  color: #508494;
   font-size: 25px;
   font-weight: 150;
 }
@@ -124,7 +124,7 @@ p{
 }
 
 .image img{
-  box-shadow: 10px 10px 5px 12px blue;
+  box-shadow: 10px 10px 5px 12px #508494;
 }
 
 .split-slide{
@@ -139,15 +139,15 @@ p{
 }
 
 .slide{
-  border-left: 15px solid blue;
+  border-left: 15px solid #508494;
 }
 .slide h1{
   text-decoration: none;
-  color: blue;
+  color: #508494;
   font-size: 35px;
   font-weight: 90;
   text-align: right;
-  border-right: 2px solid blue;
+  border-right: 2px solid #508494;
 }
 
 .slide ul{
@@ -172,7 +172,7 @@ p{
 
 .title h1{
   text-decoration: none;
-  color: blue;
+  color: #508494;
   font-size: 40px;
   font-weight: 150;
   padding-right: 2rem;
@@ -212,7 +212,7 @@ p{
 }
 
 .content-centered h2{
-  color: blue;
+  color: #508494;
   font-size: 25px;
   font-weight: 150;
 }
@@ -231,7 +231,7 @@ p{
 .circle-icon {
   width: 50px; 
   height: 50px;
-  background-color: blue;
+  background-color: #508494;
   border-radius: 50%;
   color: white; 
   font-size: 24px; 
@@ -365,7 +365,7 @@ p{
 }
 
 .home {
-  height: 100vh;
+  height: 140vh;
   min-width: 100vw;
 }
 
@@ -412,7 +412,7 @@ p{
   letter-spacing: 2px;
   font-weight: 100px;
   font-size: 50px;
-  color: blue;
+  color: #508494;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -446,14 +446,19 @@ p{
 }
 
 .home .right-side img{
-  margin-top: 10rem;
-  width: 400px;
-  height: 800px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-side img {
-  margin: auto;
-  width: 70%;
+  z-index: -1;
+  margin-left: 15rem;
+  width: 700px;
+  height: 1700px;
   border: 1px solid gray;
+  transform: rotate(320deg); 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
