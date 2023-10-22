@@ -446,9 +446,9 @@ p{
 }
 
 .home .right-side img{
-  margin-top: 10rem;
   width: 400px;
   height: 800px;
+  transform: rotate(320deg); 
 }
 
 .right-side img {
