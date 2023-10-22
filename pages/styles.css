@@ -3,7 +3,9 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+html, body {
+  scroll-behavior: smooth;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -424,6 +426,12 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home .right-side img{
+  margin-top: 10rem;
+  width: 400px;
+  height: 800px;
 }
 
 .right-side img {
