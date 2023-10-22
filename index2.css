@@ -62,6 +62,7 @@ body {
   transition: 0.5s ease;
   color: black;
 }
+
 .home {
   height: 100vh;
   min-width: 100vw;
@@ -519,3 +520,4 @@ body {
   width: 30%;
   height: 30%;
 }
+
