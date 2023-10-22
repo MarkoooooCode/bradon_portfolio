@@ -55,11 +55,16 @@ body {
   font-weight: bold;
   text-decoration: none;
   font-size: large;
+  color: rgb(101, 101, 101);
+}
+
+.navbar li a:hover {
+  transition: 0.5s ease;
   color: black;
 }
 
 .home {
-  height: 90vh;
+  height: 100vh;
   min-width: 100vw;
 }
 
@@ -115,7 +120,7 @@ body {
   font-family: sans-serif;
   letter-spacing: 1px;
   font-size: 25px;
-  color: black;
+  color: rgb(113, 113, 113);
   text-align: center;
   margin-bottom: 20px;
   font-style: italic;
@@ -123,7 +128,7 @@ body {
 
 .aspire {
   text-align: center;
-  color: gray;
+  color: rgb(105, 105, 105);
   font-weight: 100;
 }
 
@@ -142,11 +147,12 @@ body {
 
 .right-side img {
   margin: auto;
-  width: 80%;
+  width: 70%;
+  border: 1px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .breakfast-home {
-  min-height: 90vh;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -170,6 +176,7 @@ body {
   width: 100%;
   display: flex;
   padding-top: 2rem;
+  margin-bottom: 75px;
 }
 
 .bfast-container1{
@@ -177,9 +184,10 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-bottom: 50px;
 }
 .left-side1 {
-  margin-right: 10px; /* You can adjust this value as needed */
+  margin-right: 10px;
 }
 .left-side1 .fa{
   text-align: left;
@@ -193,7 +201,7 @@ body {
 
 .right-side1 .icon img {
   width: 100%;
-  height: 100%; /* This ensures the image maintains its aspect ratio */
+  height: 100%;
 }
 
 .left-side1 .mess{
@@ -214,6 +222,7 @@ body {
 .left-side1 .mess p{  
   font-size: 20px;
   padding-top: 1rem;
+  color: rgb(115, 115, 115);
 }
 .breakfast-home .bfast-container .left-side {
   display: flex;
@@ -249,7 +258,8 @@ body {
 
 .breakfast-home .bfast-container .left-side p {
   font-size: 20px;
-  margin-left: 2rem;
+  margin-left: 4rem;
+  color: rgb(85, 85, 85);
 }
 
 .breakfast-home .bfast-container .right-side {
@@ -272,7 +282,7 @@ body {
 
 .breakfast-home .bfast-container .right-side h2 {
   color: red;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 200;
   margin-left: 50px;
   padding-left: 2rem;
@@ -281,7 +291,8 @@ body {
 .breakfast-home .bfast-container .right-side p {
   font-size: 20px;
   margin-left: 50px;
-  padding-left: 2rem;
+  padding-left: 4rem;
+  color: rgb(113, 113, 113);
 }
 
 .breakfast-home .back-div-red {
@@ -309,11 +320,14 @@ body {
 .summary-content {
   background-color: rgb(242, 242, 242);
   padding: 50px;
+  width: 50%;
+  margin-bottom: 75px;
 }
 
 .summary-content p {
   font-size: 20px;
   text-align: center;
+  color: #4b4b4b;
 }
 
 .page3container {
@@ -352,6 +366,18 @@ body {
 .p3-right-side ul li {
   font-weight: 100;
   font-size: 50px;
+  color: rgb(95, 95, 95);
+}
+
+.p3-right-side ul li a{
+  text-decoration: none;
+  color: rgb(95, 95, 95);
+}
+
+.p3-right-side ul li a:hover{
+  transition: 0.7s ease;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
 }
 
 .page3container h1 {
@@ -364,7 +390,6 @@ body {
 }
 
 .breakfast-home-digi {
-  min-height: 100vh;
   margin: auto;
   display: flex;
   gap: 50px;
@@ -400,19 +425,23 @@ body {
 .breakfast-home-digi .bfast-container .left-side p {
   font-size: 20px;
   margin-left: 70px;
+  color: #5e5e5e;
 }
 
 .breakfast-home-digi .bfast-container .right-side {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   width: 60%;
   height: 100%;
+  margin: auto;
 }
 
 .breakfast-home-digi .bfast-container .right-side img {
-  width: 120%;
-  height: 120%;
+  width: 30%;
   margin: auto;
+  border: 1px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .breakfast-home-digi .bfast-container-findings {
@@ -440,7 +469,7 @@ body {
 }
 
 .left-side-findings img{
-  width: 75%;
+  width: 65%;
   height: 100%;
 }
 
@@ -453,3 +482,42 @@ body {
   font-size: 30px;
   text-align: center;
 }
+
+.mess-mockups {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-side {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-cont {
+  height: 100%;
+  width: 100%;
+  margin-left: 150px;
+}
+
+.down-side {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.down-cont {
+  height: 50%;
+  width: 100%;
+  margin: 20px 600px;
+}
+
+
+.mess-mockups .top-side img,
+.down-side img {
+  width: 30%;
+  height: 30%;
+}
+
