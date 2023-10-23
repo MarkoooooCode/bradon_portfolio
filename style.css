@@ -233,9 +233,6 @@
         transition: 0.5s ease-in-out;
         padding: 0;
     }
-    element.style {
-    left: 15px;
-}
     .navbar-list li a {
         color: white;
     }
@@ -366,9 +363,6 @@
         margin-bottom: 150px;
         height: 250px;
     }
-    element.style {
-    left: 15px;
-}
     .content h1 {
         font-size: 1.5rem;
         /* Reduce font size for smaller screens */
@@ -455,9 +449,7 @@ section.card {
     border-radius: 24px 24px 24px 48px;
     padding: 48px 48px 48px 308px;
     margin: 84px 0;
-    width: 1000px;
-    max-width: 920px;
-    min-width: 640px;
+    width: 1300px;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
@@ -532,6 +524,10 @@ section .card {
     background-color: #0B78C5;
 }
 
+.hello .button-top {
+    display: inline-block;
+}
+
 article {
     margin: auto;
     display: block;
@@ -547,6 +543,7 @@ article {
         max-width: 90%;
         margin-top: 0;
         min-width: 90%;
+        margin-bottom: 600px;
     }
     section.card .visual,
     section.card:nth-of-type(odd) .visual {
@@ -555,6 +552,8 @@ article {
         right: 16px;
         left: auto;
         overflow: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     section.card {
         width: 90%;
@@ -593,19 +592,21 @@ article {
     section.card .text-content a {
         font-size: 0.8em;
     }
-    section.card .visual,
-    section.card:nth-of-type(odd) .visual {
+    section.card .visual {
         width: 150px;
         height: 150px;
         right: 16px;
         left: auto;
         overflow: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    section.card .visual img,
-    section.card:nth-of-type(odd) .visual img {
+    section.card .visual img {
         width: 97%;
         height: 100%;
         overflow: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
@@ -715,8 +716,9 @@ button:hover {
         display: none;
     }
     .container {
-        position: relative;
-        right: 5000px;
+        position: absolute;
+        right: 300px;
+        top: 2400px;
     }
 }
 
