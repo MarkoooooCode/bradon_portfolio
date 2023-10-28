@@ -186,3 +186,8 @@ p{
   padding: 2rem;
   color: #5a5a5a;
 }
+
+/* Small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  
+}
