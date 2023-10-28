@@ -233,6 +233,9 @@
         transition: 0.5s ease-in-out;
         padding: 0;
     }
+    element.style {
+    left: 15px;
+}
     .navbar-list li a {
         color: white;
     }
@@ -363,6 +366,9 @@
         margin-bottom: 150px;
         height: 250px;
     }
+    element.style {
+    left: 15px;
+}
     .content h1 {
         font-size: 1.5rem;
         /* Reduce font size for smaller screens */
